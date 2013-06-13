@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<!--
+  LIGHTSTREAMER - www.lightstreamer.com
+  Flash Bridge Basic Demo
+  
+  Copyright 2013 Weswit s.r.l.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <title>Lightstreamer :: Flash Bridge :: Basic Demo</title>
+  <link rel="stylesheet" type="text/css" href="css/flash.css" />
+
+  <style type="text/css">
+    #wrap {
+      width: 620px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+
+<body>
+  <a href="https://github.com/Weswit/Lightstreamer-example-StockList-client-flash" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0; z-index:1" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+  <div id="wrap">
+    <table width="620" border="0">
+      <tr>
+        <td><a href="http://www.lightstreamer.com" target="_blank">
+          <img src="images/logo.png" alt="LIGHTSTREAMER" hspace="0" border="0" /></a></td>
+        <td class="demoTitle">FLASH BRIDGE :: BASIC DEMO</td>
+      </tr>
+    </table>
+
+    <br />
+
+    <table width="620" border="1">
+      <tr>
+          <td>
+            <!-- first Flash object -->
+            <div id="swfContent">
+              <!-- message to be shown if embedSWF fails -->
+              <p>Loading the Flash movie...</p>
+            </div>
+          </td>
+          <td>
+            <!-- second Flash object -->
+            <div id="swfContent2">
+              <!-- message to be shown if embedSWF fails -->
+              <p>Loading the Flash movie...</p>
+            </div>
+        </td>
+      </tr>
+      <tr class="note">
+        <td>The Flash object above subscribes to two items.</td>
+        <td>The Flash object above subscribes to the same two items, setting a maximum frequency of 1 update/sec.</td>  
+      </tr>
+    </table>
+  </div>
+  
+  <script src="js/require.js"></script>
+  <script src="js/lightstreamer.js"></script>
+  <script src="js/swfobject.js"></script>
+  <script>
+  require(["js/lsClient","FlashBridge"], 
+      function(lsClient,FlashBridge) {
+    
+    swfobject.embedSWF("js/test_movie.swf", "swfContent", "400", "300", "8.0.0", false, null, null, {id:"flashObject"}, function() {
+      var flashHandler = new FlashBridge("flashObject",lsClient);
+    });
+
+    swfobject.embedSWF("js/test_movie2.swf", "swfContent2", "200", "200", "8.0.0", false, null, null, {id:"flashObject2"}, function() {
+      var flashHandler = new FlashBridge("flashObject2",lsClient);
+    });
+  });
+  </script>
+</body>
+
+</html>
