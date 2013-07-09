@@ -1,24 +1,34 @@
 
-Lightstreamer StockList Demo Client for Flash
-=============================================
+# Lightstreamer StockList Demo Client for Flash #
 
-This project includes different demos for Flash based on Lightstreamer StockList Adapter:
+This project contains two examples of Flash application that employs the Flash/Flex JavaScript Bridge.
 
-* Basic Demo
-* StockList Demo
+Any Flash application can be fed with real-time data delivered by Lightstreamer Server. The integration strategy used is based on a JavaScript/ActionScript bridge. The standard Lightstreamer JavaScript Client Library is used to implement a page that will contain the Flash application and feed it through a LightstreamerClient object. <br>
+The library includes a bridge module. The lsjavascriptbridge.as library is added to the Flash movie.
 
-Basic Demo
----------------------
+The following diagram shows the data flow from Lightstreamer
+Server to the Flash application:
+
+```text
+ ------          -------------------------------------------------
+|  LS  |        |  LS core          JS           AS         Flash |
+|      |  --->  | JavaScript -->  Bridge  -->          -->        |
+|Server|        |  Client         module       Bridge        App  |
+ ------          -------------------------------------------------
+                                      BROWSER
+```
+
+## Basic Demo ##
 
 <table>
   <tr>
     <td style="text-align: left">
-      &nbsp;<a href="http://www.lightstreamer.com/demo/Flash_StockListDemo_Basic/" target="_blank"><img src="http://www.lightstreamer.com/img/demo/screen_basicflash.png"></a>&nbsp;
+      &nbsp;<a href="http://demos.lightstreamer.com/Flash_StockListDemo_Basic/" target="_blank"><img src="http://www.lightstreamer.com/img/demo/screen_basicflash.png"></a>&nbsp;
       
     </td>
     <td>
       &nbsp;An online demonstration is hosted on our servers at:<br>
-      &nbsp;<a href="http://www.lightstreamer.com/demo/Flash_StockListDemo_Basic/" target="_blank">http://www.lightstreamer.com/demo/Flash_StockListDemo_Basic/</a>
+      &nbsp;<a href="http://demos.lightstreamer.com/Flash_StockListDemo_Basic/" target="_blank">http://demos.lightstreamer.com/Flash_StockListDemo_Basic/</a>
     </td>
   </tr>
 </table>
@@ -31,17 +41,16 @@ The demo includes the following client-side technologies:
 * A [FlashTable](http://www.lightstreamer.com/docs/client_flash_jsdoc/FlashTable.html) containing 2 items, subscribed to in <b>MERGE</b> mode, for each Flash movie.
 
 
-StockList Demo
----------------
+## StockList Demo ##
 
-<table border="">
+<table>
   <tr>
     <td style="text-align: left">
-      &nbsp;<a href="http://www.lightstreamer.com/demo/Flash_StockListDemo/" target="_blank"><img src="http://www.lightstreamer.com/img/demo/screen_flash.png"></a>&nbsp;
+      &nbsp;<a href="http://demos.lightstreamer.com/Flash_StockListDemo" target="_blank"><img src="http://www.lightstreamer.com/img/demo/screen_flash.png"></a>&nbsp;
     </td>
     <td>
       &nbsp;An online demonstration is hosted on our servers at:<br>
-      &nbsp;<a href="http://www.lightstreamer.com/demo/Flash_StockListDemo/" target="_blank">http://www.lightstreamer.com/demo/Flash_StockListDemo/</a>
+      &nbsp;<a href="http://demos.lightstreamer.com/Flash_StockListDemo" target="_blank">http://demos.lightstreamer.com/Flash_StockListDemo</a>
     </td>
   </tr>
 </table>
@@ -53,18 +62,20 @@ The Flash app uses the <b>ActionScript/JavaScript Bridge</b> provided as part of
 The demo includes the following client-side technologies:
 * A [FlashTable](http://www.lightstreamer.com/docs/client_flash_jsdoc/FlashTable.html) containing 8 items, subscribed to in <b>MERGE</b> mode.
 
-Run The Demos
--------------
+# Build #
+
+The src/[demo_name]/flash directories contain the sources to build the Flash movies from a Flash IDE. Please once obtained the movies (test_movie.swf, test_movie2.swf and demoFlashSmall.swf) copy them to the /js folders of their respective demo. 
+
+# Deploy #
 
 Before you can run the demos of this project some dependencies need to be solved:
 
--  Get the lightstreamer.js file from the [Lightstreamer 5 Colosseo distribution](http://www.lightstreamer.com/download) 
-   and put it in the src/[demo_name]/js folder of the demo (if that is the case, please create it). Alternatively you can build a lightstreamer.js file from the 
-   [online generator](http://www.lightstreamer.com/distros/Lightstreamer_Allegro-Presto-Vivace_5_0_Colosseo_20120803/Lightstreamer/DOCS-SDKs/sdk_client_javascript/tools/generator.html).
+-  Get the lightstreamer.js file from the [latest Lightstreamer distribution](http://www.lightstreamer.com/download) in the /DOCS-SDKs/sdk_client_javascript/lib folder
+   and put it in the src/[demo_name]/js folder of the demo. Alternatively you can build a lightstreamer.js file from the 
+   [online generator](http://www.lightstreamer.com/distros/Lightstreamer_Allegro-Presto-Vivace_5_1_1_Colosseo_20130305/Lightstreamer/DOCS-SDKs/sdk_client_javascript/tools/generator.html).
    In that case be sure to include the LightstreamerClient, Subscription, DynaGrid, StaticGrid, Chart, SimpleChartListener, and StatusWidget modules and to use the "Use AMD" version.
 -  Get the require.js file form [requirejs.org](http://requirejs.org/docs/download.html) and put it in the src/[demo_name]/js folder of the demo.
 -  Get the swfobject.js version 2.2 file form [SWFObject 2](http://code.google.com/p/swfobject/downloads/list) and put it in the src/[demo_name]/js folder of the demo.
--  The flash directory contains the sources to build the Flash movie from a Flash IDE. Please once obtained the movies (test_movie.swf, test_movie2.swf and demoFlashSmall.swf) copy them to the /js folders of their respective demo. 
 
 You can deploy these demos in order to use the Lightstreamer server as Web server or in any external Web Server you are running. 
 If you choose the former case please note that in the <LS_HOME>/pages/demos/ folder there is a copy of the src/[demo_name] directories of this project, in other cases please create the folders <LS_HOME>/pages/demos/[demo_name] then copy here the contents of the src/[demo_name] folder of this project.<br>
