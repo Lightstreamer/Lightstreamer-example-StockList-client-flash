@@ -1,4 +1,3 @@
-
 # Lightstreamer StockList Demo Client for Flash #
 
 This project contains two examples of Flash application that employs the Flash/Flex JavaScript Bridge.
@@ -23,7 +22,7 @@ Server to the Flash application:
 <table>
   <tr>
     <td style="text-align: left">
-      &nbsp;<a href="http://demos.lightstreamer.com/Flash_StockListDemo_Basic/" target="_blank"><img src="http://www.lightstreamer.com/img/demo/screen_basicflash.png"></a>&nbsp;
+      &nbsp;<a href="http://demos.lightstreamer.com/Flash_StockListDemo_Basic/" target="_blank"><img src="screen_basicflash.png"></a>&nbsp;
       
     </td>
     <td>
@@ -46,7 +45,7 @@ The demo includes the following client-side technologies:
 <table>
   <tr>
     <td style="text-align: left">
-      &nbsp;<a href="http://demos.lightstreamer.com/Flash_StockListDemo" target="_blank"><img src="http://www.lightstreamer.com/img/demo/screen_flash.png"></a>&nbsp;
+      &nbsp;<a href="http://demos.lightstreamer.com/Flash_StockListDemo" target="_blank"><img src="screen_flash.png"></a>&nbsp;
     </td>
     <td>
       &nbsp;An online demonstration is hosted on our servers at:<br>
