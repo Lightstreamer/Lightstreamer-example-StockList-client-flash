@@ -1,4 +1,4 @@
-# Lightstreamer - Basic Stock-List Demo - Flash Client #
+# Lightstreamer - Stock-List Demos - Flash Clients #
 
 This project contains two examples of Flash application that employs the Flash/Flex JavaScript Bridge.
 
