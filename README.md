@@ -40,7 +40,7 @@ The demo includes the following client-side technologies:
 * A [FlashTable](http://www.lightstreamer.com/docs/client_flash_jsdoc/FlashTable.html) containing 2 items, subscribed to in <b>MERGE</b> mode, for each Flash movie.
 
 
-## StockList Demo ##
+## Stock-List Demo ##
 
 <table>
   <tr>
@@ -90,7 +90,7 @@ The demos are now ready to be launched.
 
 ## Lightstreamer Adapters needed by these demo clients ##
 
-* [Lightstreamer - Stock- List Demo - Java SE Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java)
+* [Lightstreamer - Stock-List Demo - Java SE Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java)
 * [Lightstreamer - Reusable Metadata Adapters- Java SE Adapter](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java)
 
 ## Similar demo clients that may interest you ##
