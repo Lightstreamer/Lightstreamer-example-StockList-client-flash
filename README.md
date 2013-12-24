@@ -18,6 +18,7 @@ Server to the Flash application:
 ```
 
 ## Basic Demo ##
+<!-- START DESCRIPTION Basic Demo -->
 
 <table>
   <tr>
@@ -39,8 +40,11 @@ The Flash app uses the <b>ActionScript/JavaScript Bridge</b> provided as part of
 The demo includes the following client-side technologies:
 * A [FlashTable](http://www.lightstreamer.com/docs/client_flash_jsdoc/FlashTable.html) containing 2 items, subscribed to in <b>MERGE</b> mode, for each Flash movie.
 
+<!-- END DESCRIPTION Basic Demo -->
+
 
 ## Stock-List Demo ##
+<!-- START DESCRIPTION Stock-List Demo -->
 
 <table>
   <tr>
@@ -60,6 +64,8 @@ The Flash app uses the <b>ActionScript/JavaScript Bridge</b> provided as part of
 
 The demo includes the following client-side technologies:
 * A [FlashTable](http://www.lightstreamer.com/docs/client_flash_jsdoc/FlashTable.html) containing 8 items, subscribed to in <b>MERGE</b> mode.
+
+<!-- END DESCRIPTION Stock-List Demo -->
 
 # Build #
 
@@ -90,9 +96,12 @@ The demos are now ready to be launched.
 # See Also #
 
 ## Lightstreamer Adapters needed by these demo clients ##
+<!-- START RELATED_ENTRIES -->
 
 * [Lightstreamer - Stock-List Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java)
 * [Lightstreamer - Reusable Metadata Adapters- Java Adapter](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java)
+
+<!-- END RELATED_ENTRIES -->
 
 ## Similar demo clients that may interest you ##
 
