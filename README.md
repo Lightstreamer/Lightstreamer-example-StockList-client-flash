@@ -17,7 +17,7 @@ Server to the Flash application:
                                       BROWSER
 ```
 
-## Basic Demo - Flash Client ##
+## Basic Stock-List Demo - Flash Client ##
 <!-- START DESCRIPTION Basic Demo -->
 
 <table>
