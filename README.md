@@ -18,7 +18,7 @@ Server to the Flash application:
 ```
 
 ## Basic Stock-List Demo - Flash Client ##
-<!-- START DESCRIPTION Basic Stock-List Demo -->
+<!-- START DESCRIPTION lightstreamer-example-stocklist-client-flash-basic-stock-list-demo---flash-client -->
 
 <table>
   <tr>
@@ -40,11 +40,11 @@ The Flash app uses the <b>ActionScript/JavaScript Bridge</b> provided as part of
 The demo includes the following client-side technologies:
 * A [FlashTable](http://www.lightstreamer.com/docs/client_flash_jsdoc/FlashTable.html) containing 2 items, subscribed to in <b>MERGE</b> mode, for each Flash movie.
 
-<!-- END DESCRIPTION Basic Stock-List Demo -->
+<!-- END DESCRIPTION lightstreamer-example-stocklist-client-flash-basic-stock-list-demo---flash-client -->
 
 
 ## Stock-List Demo - Flash Client ##
-<!-- START DESCRIPTION Stock-List Demo -->
+<!-- START DESCRIPTION lightstreamer-example-stocklist-client-flash-stock-list-demo---flash-client -->
 
 <table>
   <tr>
@@ -65,7 +65,7 @@ The Flash app uses the <b>ActionScript/JavaScript Bridge</b> provided as part of
 The demo includes the following client-side technologies:
 * A [FlashTable](http://www.lightstreamer.com/docs/client_flash_jsdoc/FlashTable.html) containing 8 items, subscribed to in <b>MERGE</b> mode.
 
-<!-- END DESCRIPTION Stock-List Demo -->
+<!-- END DESCRIPTION lightstreamer-example-stocklist-client-flash-stock-list-demo---flash-client -->
 
 # Build #
 
