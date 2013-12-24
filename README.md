@@ -17,7 +17,7 @@ Server to the Flash application:
                                       BROWSER
 ```
 
-## Basic Demo ##
+## Basic Demo - Flash Client ##
 <!-- START DESCRIPTION Basic Demo -->
 
 <table>
@@ -43,7 +43,7 @@ The demo includes the following client-side technologies:
 <!-- END DESCRIPTION Basic Demo -->
 
 
-## Stock-List Demo ##
+## Stock-List Demo - Flash Client ##
 <!-- START DESCRIPTION Stock-List Demo -->
 
 <table>
