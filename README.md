@@ -37,7 +37,7 @@ This very simple demo uses the Flash Bridge to inject real-time data into two Fl
 
 The Flash app uses the <b>ActionScript/JavaScript Bridge</b> provided as part of the "sdk_client_flash". That means the ActionScript API, used within the Flash application, talks to external JavaScript code, in the form of the [FlashBridge](http://www.lightstreamer.com/docs/client_javascript_uni_api/FlashBridge.html) class, that in turn uses a [LightstreamerClient](http://www.lightstreamer.com/docs/client_javascript_uni_api/LightstreamerClient.html) instance to handle the communications with Lightstreamer Server.
 
-The demo includes the following client-side technologies:
+The demo includes the following client-side functionalities:
 * A [FlashTable](http://www.lightstreamer.com/docs/client_flash_jsdoc/FlashTable.html) containing 2 items, subscribed to in <b>MERGE</b> mode, for each Flash movie.
 
 <!-- END DESCRIPTION lightstreamer-example-stocklist-client-flash-basic-stock-list-demo---flash-client -->
@@ -62,7 +62,7 @@ This is a Flash version of the [Lightstreamer - Basic Stock-List Demo - HTML Cli
 
 The Flash app uses the <b>ActionScript/JavaScript Bridge</b> provided as part of the "sdk_client_flash". That means the ActionScript API, used within the Flash application, talks to external JavaScript code, in the form of the [FlashBridge](http://www.lightstreamer.com/docs/client_javascript_uni_api/FlashBridge.html) class, that in turn uses a [LightstreamerClient](http://www.lightstreamer.com/docs/client_javascript_uni_api/LightstreamerClient.html) instance to handle the communications with Lightstreamer Server.
 
-The demo includes the following client-side technologies:
+The demo includes the following client-side functionalities:
 * A [FlashTable](http://www.lightstreamer.com/docs/client_flash_jsdoc/FlashTable.html) containing 8 items, subscribed to in <b>MERGE</b> mode.
 
 <!-- END DESCRIPTION lightstreamer-example-stocklist-client-flash-stock-list-demo---flash-client -->
