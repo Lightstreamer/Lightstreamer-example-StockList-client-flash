@@ -20,18 +20,8 @@ Server to the Flash application:
 ## Basic Stock-List Demo - Flash Client ##
 <!-- START DESCRIPTION lightstreamer-example-stocklist-client-flash-basic-stock-list-demo---flash-client -->
 
-<table>
-  <tr>
-    <td style="text-align: left">
-      &nbsp;<a href="http://demos.lightstreamer.com/Flash_StockListDemo_Basic/" target="_blank"><img src="screen_basicflash.png"></a>&nbsp;
-      
-    </td>
-    <td>
-      &nbsp;An online demonstration is hosted on our servers at:<br>
-      &nbsp;<a href="http://demos.lightstreamer.com/Flash_StockListDemo_Basic/" target="_blank">http://demos.lightstreamer.com/Flash_StockListDemo_Basic/</a>
-    </td>
-  </tr>
-</table>
+![Demo ScreenShot](screen_basicflash_large.png)<br>
+An online demonstration is hosted on our servers at: [http://demos.lightstreamer.com/Flash_StockListDemo_Basic](http://demos.lightstreamer.com/Flash_StockListDemo_Basic)<br>
 
 This very simple demo uses the Flash Bridge to inject real-time data into two Flash movies hosted on the page. Each of the two movies subscribes to two items of the [Stock-List Demos](https://github.com/Weswit/Lightstreamer-example-StockList-client-javascript). The smaller movie sets a maximum update frequency of 1 event/sec.
 
@@ -46,17 +36,8 @@ The demo includes the following client-side functionalities:
 ## Stock-List Demo - Flash Client ##
 <!-- START DESCRIPTION lightstreamer-example-stocklist-client-flash-stock-list-demo---flash-client -->
 
-<table>
-  <tr>
-    <td style="text-align: left">
-      &nbsp;<a href="http://demos.lightstreamer.com/Flash_StockListDemo" target="_blank"><img src="screen_flash.png"></a>&nbsp;
-    </td>
-    <td>
-      &nbsp;An online demonstration is hosted on our servers at:<br>
-      &nbsp;<a href="http://demos.lightstreamer.com/Flash_StockListDemo" target="_blank">http://demos.lightstreamer.com/Flash_StockListDemo</a>
-    </td>
-  </tr>
-</table>
+![Demo ScreenShot](screen_flash_large.png)<br>
+An online demonstration is hosted on our servers at: [http://demos.lightstreamer.com/Flash_StockListDemo](http://demos.lightstreamer.com/Flash_StockListDemo)<br>
 
 This is a Flash version of the [Lightstreamer - Basic Stock-List Demo - HTML Client](https://github.com/Weswit/Lightstreamer-example-StockList-client-javascript#basic-stock-list-demo---html-client), which displays eight stock quotes with some nice graphic effects.
 
