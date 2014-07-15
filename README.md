@@ -60,8 +60,8 @@ The demo includes the following client-side functionalities:
 
 ## Build
 
-The src/[demo_name]/flash directories contain the sources to build the Flash movies from a Flash IDE. Before you can build the demos you need to get the <b>ActionScript/JavaScript Bridge</b> provided as part of the "sdk_client_flash", get the lsjavascriptbridge.as file from the [latest Lightstreamer distribution](http://www.lightstreamer.com/download) in the /DOCS-SDKs/sdk_client_flash/lib folder.<br>
-Please once obtained the movies (test_movie.swf, test_movie2.swf and demoFlashSmall.swf) copy them to the /js folders of their respective demo. 
+The `src/[demo_name]/flash` directories contain the sources to build the Flash movies from a Flash IDE. Before you can build the demos you need to get the <b>ActionScript/JavaScript Bridge</b> provided as part of the "sdk_client_flash", get the `lsjavascriptbridge.as` file from the [latest Lightstreamer distribution](http://www.lightstreamer.com/download) in the `/DOCS-SDKs/sdk_client_flash/lib` folder.<br>
+Please once obtained the movies (`test_movie.swf`, `test_movie2.swf` and `demoFlashSmall.swf`) copy them to the `/js` folders of their respective demo. 
 
 ### Deploy
 
