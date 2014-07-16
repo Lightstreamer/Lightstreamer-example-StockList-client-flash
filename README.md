@@ -58,23 +58,22 @@ The demo includes the following client-side functionalities:
 
 <!-- END DESCRIPTION lightstreamer-example-stocklist-client-flash-stock-list-demo---flash-client -->
 
-### Install
+## Install
 
-If you want to install a version of this demo pointing to your local Lightstreamer Server, follow these steps:
+If you want to install a version of these demos pointing to your local Lightstreamer Server, follow these steps:
 
 * Note that, as prerequisite, the [Lightstreamer - Stock- List Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java) has to be deployed on your local Lightstreamer Server instance. Please check out that project and follow the installation instructions provided with it.
 * Launch Lightstreamer Server.
 * Download the `deploy.zip` file that you can find in the [deploy release](https://github.com/Weswit/Lightstreamer-example-StockList-client-flash/releases) of this project and extract the `Flash_StockListDemo_Basic` and/or `Flash_StockListDemo` folder.
 * Crate the folders `/pages/demos/[demo_name]` into your Lightstreamer server installation then copy here the contents of the `Flash_StockListDemo_Basic` or `Flash_StockListDemo` folder.
-* Get the `lightstreamer.js` file from the [latest Lightstreamer distribution](http://www.lightstreamer.com/download) in the `/DOCS-SDKs/sdk_client_javascript/lib` folder and put it in the `src/[demo_name]/js` folder of the demo. Alternatively you can build a `lightstreamer.js` file from the [online generator](http://www.lightstreamer.com/distros/Lightstreamer_Allegro-Presto-Vivace_5_1_1_Colosseo_20140310/Lightstreamer/DOCS-SDKs/sdk_client_javascript/tools/generator.html).
-In that case be sure to include the LightstreamerClient, Subscription, DynaGrid, StaticGrid, Chart, SimpleChartListener, and StatusWidget modules and to use the "Use AMD" version.
+* Get the `lightstreamer.js` file from the [latest Lightstreamer distribution](http://www.lightstreamer.com/download) in the `/DOCS-SDKs/sdk_client_javascript/lib` folder and put it in the `src/[demo_name]/js` folder of the demo.
 * Get the `require.js` file form [requirejs.org](http://requirejs.org/docs/download.html) and put it in the `src/[demo_name]/js` folder of the demo.
 * Get the `swfobject.js` version 2.2 file form [SWFObject 2](http://code.google.com/p/swfobject/downloads/list) and put it in the `src/[demo_name]/js` folder of the demo.
 * Launch the demo.
 
-### Build
+## Build
 
-To build your own version of the Flash movies, instead of using the one provided in the deploy.zip file from the Install section above, the `src/[demo_name]/flash` directories contain the sources to build from a Flash IDE.<br>
+To build your own version of the Flash movies, instead of using the one provided in the `deploy.zip` file from the Install section above, the `src/[demo_name]/flash` directories contain the sources to build from a Flash IDE.<br>
 Before you can build the demos you need to get the <b>ActionScript/JavaScript Bridge</b> provided as part of the "sdk_client_flash", get the `lsjavascriptbridge.as` file from the [latest Lightstreamer distribution](http://www.lightstreamer.com/download) in the `/DOCS-SDKs/sdk_client_flash/lib` folder.<br>
 Please once obtained the movies (`test_movie.swf`, `test_movie2.swf` and `demoFlashSmall.swf`) copy them to the `/js` folders of their respective demo. 
 
