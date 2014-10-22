@@ -84,7 +84,8 @@ The client demos configuration assumes that Lightstreamer Server, Lightstreamer 
 var lsClient = new LightstreamerClient(protocolToUse+"//localhost:8080","DEMO");
 ```
 in `lsClient.js` or `index.html`, depending on the demo, and change it accordingly.<br>
-Anyway, the [QUOTE_ADAPTER](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java) and [LiteralBasedProvider](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java) have to be deployed in your local Lightstreamer server instance. The factory configuration of Lightstreamer server already provides this adapter deployed.<br>
+Anyway, the [QUOTE_ADAPTER](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java) has to be deployed in your local Lightstreamer server instance;
+the [LiteralBasedProvider](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java) is also needed, but it is already provided by Lightstreamer server.<br>
 The demos are now ready to be launched.
 
 ## See Also
