@@ -78,7 +78,7 @@ Before you can build the demos, you need to get the <b>ActionScript/JavaScript B
 Once the movies are obtained (`test_movie.swf`, `test_movie2.swf`, and `demoFlashSmall.swf`), copy them to the `/js` folders of their respective demo. 
 
 You can deploy these demos to use the Lightstreamer server as Web server or in any external Web Server you are running. 
-If you choose the former case, please note that in the `<LS_HOME>/pages/demos/` folder, there is a copy of the `src/[demo_name]` directories of this project, in other cases, please create the folders `<LS_HOME>/pages/demos/[demo_name]` then copy here the contents of the `src/[demo_name]` folder of this project.<br>
+If you choose the former case, please create the folders `<LS_HOME>/pages/demos/[demo_name]` then copy here the contents of the `src/[demo_name]` folder of this project.<br>
 The client demos configuration assumes that Lightstreamer Server, Lightstreamer Adapters, and this client are launched on the same machine. If you need to target a different Lightstreamer server, please search this line:
 ```js
 var lsClient = new LightstreamerClient(protocolToUse+"//localhost:8080","DEMO");
