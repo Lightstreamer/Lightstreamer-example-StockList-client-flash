@@ -66,7 +66,7 @@ If you want to install a version of these demos pointing to your local Lightstre
 * Launch Lightstreamer Server.
 * Download the `deploy.zip` file that you can find in the [deploy release](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-flash/releases) of this project and extract the `Flash_StockListDemo_Basic` and/or `Flash_StockListDemo` folder.
 * Crate the folders `/pages/demos/[demo_name]` into your Lightstreamer server installation, then copy here the contents of the `Flash_StockListDemo_Basic` or `Flash_StockListDemo` folder.
-* Get the `lightstreamer.js` file from the [latest Lightstreamer distribution](http://www.lightstreamer.com/download) in the `/DOCS-SDKs/sdk_client_javascript/lib` folder and put it in the `/[demo_name]/js` folder of the demo.
+* Get the `lightstreamer.js` file from the [latest Lightstreamer distribution](http://www.lightstreamer.com/download) in the `/DOCS-SDKs/sdk_client_web_unified/lib` folder and put it in the `/[demo_name]/js` folder of the demo.
 * Get the `require.js` file form [requirejs.org](http://requirejs.org/docs/download.html) and put it in the `/[demo_name]/js` folder of the demo.
 * Get the `swfobject.js` version 2.2 file form [SWFObject 2](http://code.google.com/p/swfobject/downloads/list) and put it in the `/[demo_name]/js` folder of the demo.
 * Launch the demo.
