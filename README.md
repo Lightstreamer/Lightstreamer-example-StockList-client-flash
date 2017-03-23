@@ -22,7 +22,7 @@ Server to the Flash application:
 ### Live Demo
 
 [![Demo ScreenShot](screen_basicflash_large.png)](http://demos.lightstreamer.com/Flash_StockListDemo_Basic)<br>
-###[![](http://demos.lightstreamer.com/site/img/play.png) View live demo](http://demos.lightstreamer.com/Flash_StockListDemo_Basic)<br>
+### [![](http://demos.lightstreamer.com/site/img/play.png) View live demo](http://demos.lightstreamer.com/Flash_StockListDemo_Basic)<br>
 
 ### Details
 
@@ -43,7 +43,7 @@ The demo includes the following client-side functionalities:
 ### Live Demo
 
 [![Demo ScreenShot](screen_flash_large.png)](http://demos.lightstreamer.com/Flash_StockListDemo)<br>
-###[![](http://demos.lightstreamer.com/site/img/play.png) View live demo](http://demos.lightstreamer.com/Flash_StockListDemo)<br>
+### [![](http://demos.lightstreamer.com/site/img/play.png) View live demo](http://demos.lightstreamer.com/Flash_StockListDemo)<br>
 
 ### Details
 
