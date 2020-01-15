@@ -30,7 +30,7 @@ Server to the Flash application:
 
 This very simple demo uses the Flash Bridge to inject real-time data into two Flash movies hosted on the page. Each of the two movies subscribes to two items of the [Stock-List Demos](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-javascript). The smaller movie sets a maximum update frequency of 1 event/sec.
 
-The Flash app uses the <b>ActionScript/JavaScript Bridge</b> provided as part of the "sdk_client_flash". That means the ActionScript API, used within the Flash application, talks to external JavaScript code, in the form of the [FlashBridge](https://lightstreamer.com/api/ls-web-client/latest/FlashBridge.html) class, that, in turn, uses a [LightstreamerClient](https://lightstreamer.com/api/ls-web-client/latest/LightstreamerClient.html) instance to handle the communications with Lightstreamer Server.
+The Flash app uses the <b>ActionScript/JavaScript Bridge</b> provided as part of the "sdk_client_flash". That means the ActionScript API, used within the Flash application, talks to external JavaScript code, in the form of the [FlashBridge](https://lightstreamer.com/api/ls-web-client/latest/FlashBridge.html) class, that, in turn, uses a [LightstreamerClient](https://lightstreamer.com/docs/client_javascript_uni_api/LightstreamerClient.html) instance to handle the communications with Lightstreamer Server.
 
 The demo includes the following client-side functionalities:
 * A [FlashTable](http://www.lightstreamer.com/docs/client_flash_jsdoc/FlashTable.html) containing 2 items, subscribed to in <b>MERGE</b> mode, for each Flash movie.
@@ -66,7 +66,7 @@ If you want to install a version of these demos pointing to your local Lightstre
 * Launch Lightstreamer Server.
 * Download the `deploy.zip` file that you can find in the [deploy release](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-flash/releases) of this project and extract the `Flash_StockListDemo_Basic` and/or `Flash_StockListDemo` folder.
 * Crate the folders `/pages/demos/[demo_name]` into your Lightstreamer server installation, then copy here the contents of the `Flash_StockListDemo_Basic` or `Flash_StockListDemo` folder.
-* Get the `lightstreamer.js` file from the [latest Lightstreamer distribution](http://www.lightstreamer.com/download)  (see compatibility notes below) in the `/DOCS-SDKs/sdk_client_web_unified/lib` folder and put it in the `/[demo_name]/js` folder of the demo.
+* Get the `lightstreamer.js` file from [Lightstreamer distribution](http://www.lightstreamer.com/download) (see compatibility notes below) in the `/DOCS-SDKs/sdk_client_web_unified/lib` folder and put it in the `/[demo_name]/js` folder of the demo.
 * Get the `require.js` file form [requirejs.org](http://requirejs.org/docs/download.html) and put it in the `/[demo_name]/js` folder of the demo.
 * Get the `swfobject.js` version 2.2 file form [SWFObject 2](http://code.google.com/p/swfobject/downloads/list) and put it in the `/[demo_name]/js` folder of the demo.
 * Launch the demo.
@@ -109,4 +109,4 @@ The demos are now ready to be launched.
 
 ## Lightstreamer Compatibility Notes
 
-* Compatible with Lightstreamer JavaScript Client library version version 6.0 to 7.x.
+* Compatible with Lightstreamer JavaScript Client library version 6.0 to 7.x.
