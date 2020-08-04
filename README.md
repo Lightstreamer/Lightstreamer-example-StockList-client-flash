@@ -75,7 +75,7 @@ If you want to install a version of these demos pointing to your local Lightstre
 ## Build
 
 To build your own version of the Flash movies, instead of using the one provided in the `deploy.zip` file from the Install section above, the `src/[demo_name]/flash` directories contain the sources to build from a Flash IDE.<br>
-Before you can build the demos, you need to get the <b>ActionScript/JavaScript Bridge</b> provided as part of the "sdk_client_flash", get the `lsjavascriptbridge.as` file from the [latest Lightstreamer distribution](http://www.lightstreamer.com/download) in the `/DOCS-SDKs/sdk_client_flash/lib` folder.<br>
+Before you can build the demos, you need to get the latest <b>ActionScript/JavaScript Bridge</b> (`lsjavascriptbridge.as` file) from the [Lightstreamer Flash Client SDK resources](https://lightstreamer.com/res/ls-flash-client/latest/usage.html).<br>
 Once the movies are obtained (`test_movie.swf`, `test_movie2.swf`, and `demoFlashSmall.swf`), copy them to the `/js` folders of their respective demo. 
 
 You can deploy these demos to use the Lightstreamer server as Web server or in any external Web Server you are running. 
